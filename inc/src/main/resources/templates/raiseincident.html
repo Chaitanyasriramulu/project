@@ -1,0 +1,104 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta name="viewport"
+	content="width = device-width, initial-scale = 1, shrink-to-fit = no">
+<title>Incident management</title>
+<!--<style>
+form{
+	background-color:#6C6664;
+	height:60%;
+	width:50%;
+}
+h1{
+	color:green;
+}
+label{
+	margin-left:30px;
+}
+select{
+	margin:30px;
+}
+.selectstatus{
+	margin-left:43px;
+}
+.submitbutton{
+	background-color:blue;
+	border-radius:3px;
+	color:#fff;
+	border:1px solid blue;
+	margin-left:90px;
+	width:80px;
+	height:30px;
+}
+.datecomponent{
+	margin-right:30px;
+}
+.selectstatusowner{
+	margin-left:14px;
+}
+.selectstatuspriority{
+	margin-left:40px;
+}
+.description{
+	margin-left:20px;
+}
+.summary{
+	margin-left:20px;
+}
+.description{
+	margin-left:7px;
+}
+.CreatedBy{
+	
+}
+</style>-->
+
+</head>
+<body>
+	<center>
+	<h1>RAISE INCIDENT</h1>
+	
+	<form >
+	<br />
+		<label>Summary: </label>
+		<input type="text" class="Summary"><br />
+		<label>Status: </label>
+		
+		<select name="type" class="selectstatus">
+		<option value="new"> New</option>
+		<option value="in-progress"> In-progress</option>
+		<option value="QA-In-progress"> QA-In-progress</option>
+		<option value="QA-closed"> QA-closed</option>
+		<option value="Closed">Closed</option>
+		</select><br />
+		<label>Description: </label>
+		<input type="text" class="description" ><br />
+		<label>CreatedBy: </label>
+		<input type="text"><br />
+		<label>QAOwner: </label>
+		<input type="text" class="description" ><br />
+		<label>OwnedBy</label>
+
+		<select name="type" class="selectstatusowner">
+			<option value="Omkar"> Omkar</option>
+			<option value="Srini"> Srini</option>
+			<option value="Srikanth"> Srikanth</option>
+		</select><br /><br />
+		<label>Priority: </label>
+		
+
+		<select name="type" class="selectstatuspriority">
+			<option value="low"> low</option>
+			<option value="Medium"> Medium</option>
+			<option value="High"> High</option>
+			<option value="Critical">Critical</option>
+		</select><br /><br />
+		<label>DueDate:</label>
+		<input type="date" class="datecomponent"><br /><br />
+		
+		<input type="submit" value="Submit" class="submitbutton" >
+		<br />
+		</center>
+	</form>
+</body>
+</html>

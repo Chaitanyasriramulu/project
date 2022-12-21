@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>raiseincident</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+</head>
+<body><center>
+    
+    <div class="main" align="left">
+        <div class="myincident">
+			<h1>INCIDENT MANEGEMENT</h1>
+			<form id="incident" method=" post">
+        <label>Summary: </label>
+		<textarea id="Summary" name="Summary" rows="4" cols="50" maxlength="150"minlength="25"required></textarea>
+		
+		<label>Status: </label>
+		<select name="type" class="selectstatus" >
+		     <option value="new"> New</option>
+		     <option value="in-progress"> In-progress</option>
+		     <option value="QA-In-progress"> QA-In-progress</option>
+		     <option value="QA-closed"> QA-closed</option>
+		     <option value="Closed">Closed</option>
+		</select><br /><br/>
+		<label>Description:</label>
+		<textarea id="Description" name="Description" rows="4" cols="50" maxlength="150" minlength="25" required></textarea>
+		<label>CreatedBy: </label>
+		<input type="text"class="CreatedBy"maxlength="15" minlength="4" required><br /><br/>
+		<label>QAOwner: </label>
+        <select name="type" class="QaOwner" >
+			<option value="Omkar"> Omkar</option>
+			<option value="Srini"> Srini</option>
+			<option value="Srikanth"> Srikanth</option>
+		</select><br /><br />
+	   <label>OwnedBy: </label>
+      <select name="type" class="OwnedBy" >
+			<option value="Omkar"> Omkar</option>
+			<option value="Srini"> Srini</option>
+			<option value="Srikanth"> Srikanth</option>
+		</select><br /><br />
+		<label>Priority: </label>
+		<select name="type" class="Priority" >
+			<option value="low"> low</option>
+			<option value="Medium"> Medium</option>
+			<option value="High"> High</option>
+			<option value="Critical">Critical</option>
+		</select><br /><br />
+		<label>CreationDate:</label>
+		<input type="date" class="CreationDate" min="2022-12-20" max="2023-02-28"required><br/><br/>
+		<label>DueDate:</label>
+		<input type="date" class=" DueDate "required><br /><br />
+		<input type="submit" value="Submit" name="submitbutton" id="submit" >
+		<br />
+		</form>
+    
+     </div>
+    </div>
+</center>
+</body>
+</html>

@@ -1,0 +1,166 @@
+
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border:100% #3e0683;}
+
+input[type=text], input[type=password] ,input[type=submit]{
+  width: 100px;
+  padding: 5px 5px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 100;
+  box-sizing: 90px;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 10px;
+  margin: 4px 0;
+  border: 90px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.4;
+}
+
+.login{
+    width:100%;
+	height:93vh;
+    }
+	h2{
+        text-align:center;
+        padding:20px;
+        font-family:sans-serif; 
+    }
+
+    .container{
+        text-align: center;
+
+    }
+        
+    
+
+    
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+img.avatar {
+  width: 15%;
+  border-radius: 30%;
+}
+
+span.psw {
+    float: right;
+    padding-top: 10px;
+  }
+
+
+
+
+
+
+body{
+	background: #e2e2e2!important;
+}
+.bg-primary{
+	background: #009688 !important;
+}
+
+.banner{
+	width:100%;
+	height:93vh;
+	background:Linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8))url("images/infinite.jpg");
+	background-size: cover;
+	color:white
+	}
+    div.main{
+        width:400px;
+        margin:100px auto Opx auto;
+    }
+    .imgcontainers {
+        text-align:center;
+        margin: 10px 0 10px 0;
+      }
+      
+      img.avatar {
+        width: 16%;
+        border-radius: 30%;
+      }
+      
+    h1{
+        text-align:center;
+        padding:20px;
+        font-family:sans-serif;
+    }
+    div.myincident{
+        background-color: rgba(0,0,0,0.5);
+        width:100%;
+        font-size: 18px;
+        border-radius: 10px;
+        border:px solid rgba(255,255,255,0.3);
+        box-shadow:2px 2px 15pxrgba(0,0,0,0.3);
+        color:#fff;
+    }
+    form#raiseincident{
+        margin:40px;
+    }
+label{
+    font-family: 'sans-serif';
+    font-size:18px;
+    font-style: italic;
+
+}
+.selectstatus{
+    margin-left: 56px;
+}
+.CreatedBy{
+    margin-left: 25px;
+}
+.QaOwner{
+    margin-left: 29px;
+}
+
+.OwnedBy{
+margin-left: 31px;
+}
+.Priority{
+    margin-left: 44px;
+}
+.CreationDate{
+    margin-left: 1px;
+}
+.DueDate{
+    margin-left: 33px;
+}
+input#Summary{
+    width:300px;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    outline: o;
+    padding:7px;
+    background-color: #fff;
+    box-shadow: inser 1px 1px 5px
+    rgba(0,0,0,0.3);
+}
+input#submit{
+    width:100px;
+    padding:7px;
+    font-size:16px;
+    font-family:"sans-serif";
+    font-weight:600;
+    border:none;
+    border-radius:3px;
+    background-color:rgba(250,100,0,0.8);
+    color:#fff;
+    cursor:pointer;
+    border:1px solid
+    rgba(0,0,0,0.3);
+    margin-bottom:20px;
+    
+}
